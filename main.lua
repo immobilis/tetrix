@@ -1,6 +1,11 @@
 function love.load()
-	require("states/states")
+ require("states/states")
 end
 
 function love.update( dt )
-	curState:update
+ curState:update()
+end
+
+function love.draw()
+ curState:draw()
+end
