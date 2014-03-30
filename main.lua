@@ -1,11 +1,15 @@
 function love.load()
- require("states/states")
+	require("states/states")
 end
 
 function love.update( dt )
- curState:update()
+	curState:update()
 end
 
 function love.draw()
- curState:draw()
+	curState:draw()
+end
+
+function love.keypressed( key, isrepeat )
+	curState:keypressed( key, isrepeat )
 end
