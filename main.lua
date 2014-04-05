@@ -3,7 +3,7 @@ function love.load()
 end
 
 function love.update( dt )
-	curState:update()
+	curState:update( dt )
 end
 
 function love.draw()

@@ -3,7 +3,7 @@ curState.name = "states/begin"
 
 initState( curState )
 
-curState.logo = love.graphics.newImage( "res/logo.gif" )
+curState.logo = love.graphics.newImage( "res/logo.png" )
 curState.choice = 0
 
 function curState:update( dt )
